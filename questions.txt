@@ -1,0 +1,28 @@
+# Sample Questions for AI Grader
+
+To use these in your spreadsheet, paste them into the "ANSWER_KEY" sheet.
+
+## Question 1: SEO Foundation
+**Header:** Provide a long tail Keyword for the following businesses 1. A hotel 2. A hospital 3. A software Company
+**Criteria (JSON):**
+{
+  "hotel": 2,
+  "hospital": 2,
+  "software": 2
+}
+
+## Question 2: Digital Marketing Comparison
+**Header:** Answer the following comparisons clearly: a) What is the difference between affiliate marketing and influencer marketing? (4 marks) b) Explain the difference between a TikToker and a digital marketer using Ethiopian examples. (6 marks)
+**Criteria (JSON):**
+{
+  "affiliate_vs_influencer": 4,
+  "tiktoker_vs_marketer": 6
+}
+
+## Question 3: Tools & Platforms
+**Header:** Answer this question: a) Explain the difference between ChatGPT and Google in how people use them. (5 marks) b) List three social media platforms commonly used in Ethiopia and explain which one is best for making money and why. (5 marks)
+**Criteria (JSON):**
+{
+  "chatgpt_vs_google": 5,
+  "social_platforms_ethiopia": 5
+}
